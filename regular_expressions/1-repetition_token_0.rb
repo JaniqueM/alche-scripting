@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-^hbtt{1,4}n$
+puts ARGV[0].scan(^hbtt{1,5}n$).join
